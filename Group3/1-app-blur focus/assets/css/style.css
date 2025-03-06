@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url("https://v1.fontapi.ir/css/Estedad");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: estedad;
+}
+
+body {
+  background-image: radial-gradient(rgb(204, 240, 204), rgb(164, 238, 164));
+  height: 100vh; /* view height */
+}
+
+.login {
+  background-color: #fff;
+  width: 350px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 6px 1px #a59a9a;
+  border-radius: 8px;
+}
+form {
+  height: 250px;
+}
+
+input {
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: #efefef;
+  /* outline: none; */
+  margin-top: 30px;
+}
+
+/* input[type="password"] {
+  margin-top: -14px;
+  padding-right: 5px;
+  font-size: 12px;
+} */
+
+/* #username{
+  margin-top: 30px;
+} */
+input[type="text"],
+input[type="password"] {
+  /* margin-top: 30px; */
+  padding-right: 5px;
+  font-size: 12px;
+  box-shadow: 1px 1px 6px 1px #a59a9a;
+  border-radius: 5px;
+}
+input[type="button"] { 
+  background-color: rgb(114, 182, 114);
+}
+input[type="button"]:hover {
+  background-color: rgb(52, 141, 52);
+}
+.eye {
+  left: 12px;
+  top: 40px;
+  color: gray;
+  cursor: pointer;
+}
+.eye:hover {
+  color: rgb(68, 66, 66);
+}
+
+.err {
+  /* display: none; */
+  visibility: hidden;
+  margin-bottom: 0;
+}
